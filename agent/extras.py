@@ -145,7 +145,7 @@ Format each insight as:
    *Action*: [What to do about it]
 """
 
-    def __init__(self, model: str = "llama-3.1-8b-instant"):
+    def __init__(self, model: str = "openai/gpt-oss-20b"):
         api_key = os.getenv("GROQ_API_KEY")
         self._llm = ChatGroq(
             model=model,

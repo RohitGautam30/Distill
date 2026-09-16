@@ -46,7 +46,7 @@ load_dotenv()
 # -- Constants --------------------------------------------------------------
 
 MAX_RETRIES: int = 3
-DEFAULT_MODEL: str = "llama-3.1-8b-instant"
+DEFAULT_MODEL: str = "openai/gpt-oss-20b"
 DEFAULT_TEMPERATURE: float = 0.0  # deterministic SQL generation
 MAX_ROWS: int = 500  # safety limit on returned rows
 

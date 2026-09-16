@@ -48,7 +48,7 @@ load_dotenv()
 # Constants
 # ---------------------------------------------------------------------------
 
-DEFAULT_MODEL: str = "llama-3.1-8b-instant"
+DEFAULT_MODEL: str = "openai/gpt-oss-20b"
 DEFAULT_TEMPERATURE: float = 0.1
 DEFAULT_N_RESULTS: int = 5
 RELEVANCE_THRESHOLD: float = 0.7
